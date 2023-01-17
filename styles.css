@@ -1,0 +1,229 @@
+/**
+https://coolors.co/182226-3c543c-1f3329-6c93b4-e2dad7
+
+--charleston-green: #182226ff;
+--hunter-green: #3c543cff;
+--phthalo-green: #1f3329ff;
+--cerulean-frost: #6c93b4ff;
+--maize-crayola: #6C93B4;
+--timberwolf: #e2dad7ff;
+*/
+
+/****** VARIABLES ******/
+
+:root {
+    --charleston-green: #182226ff;
+    --hunter-green: #3c543cff;
+    --phthalo-green: #1f3329ff;
+    --maize-crayola: #FFCE63;
+    --cerulean-frost: #6c93b4ff;
+    --timberwolf: #e2dad7ff;
+    
+    --br-soft: 1rem;
+    --br-round: 50%;
+    
+    --fs-s: 1.25rem;
+    --fs-m: 1.5rem;
+    --fs-l: 2rem;
+    --fs-title: 2.5rem;
+}
+
+/****** MARGIN AND PADDING RESET ******/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/******* GLOBAL STYLES *******/
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: var(--hunter-green);
+    color: var(--timberwolf);
+    text-align: center;
+}
+
+/* img {
+    width: 300px;
+} */
+
+/******* HERO SECTION *******/
+
+.hero-section {
+    background-image: url(images/athensfall.jpg);
+    padding: 7rem;
+    border-bottom-right-radius: 40%;
+    margin-bottom: 4rem;
+}
+
+.hero-block {
+    width: 550px;
+    margin: 0 auto;
+    background-color: rgba(31, 51, 41, .9);
+    border-radius: var(--br-soft);
+    padding: 1rem 3rem;
+}
+
+.hero-title {
+    color: var(--timberwolf);
+    font-size: var(--fs-title);
+    text-transform: uppercase;
+    text-shadow: 3px 3px #182226ff;
+    /* letter-spacing: .5rem */
+}
+
+.hero-subtitle {
+    color: var(--timberwolf);
+    font-size: var(--fs-s);
+    margin-bottom: 1rem;
+    /* background-color: var(--phthalo-green); */
+    /* padding: .5rem; */
+    /* border-radius: var(--br-soft); */
+}
+
+/****** THREE ACTIVITIES SECTION *******/
+
+.activity-section {
+    background-color: var(--hunter-green);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+    margin: 0 1rem 4rem 1rem;
+}
+
+.activity-title {
+    font-size: var(--fs-l);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.activity-div {
+    width: 200px;
+}
+
+.activity-img {
+    width: 200px;
+    height: 200px;
+    border-radius: var(--br-round);
+    margin-bottom: 1.5rem;
+    border: 5px solid var(--maize-crayola);
+}
+
+.activity-subtitle, .activity-text {
+    margin-bottom: .75rem;
+    font-size: var(--fs-s);
+}
+
+.activity-block {
+    height: 175px;
+    background-color: var(--phthalo-green);
+    border-radius: var(--br-soft); 
+    padding: 1rem;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.activity-text {
+    color: var(--cerulean-frost);
+}
+
+/****** ALSO NEARBY SECTION *******/
+
+.nearby-section {
+    background-color: var(--charleston-green);
+    padding: 3rem;
+    border-top-left-radius: 30%;
+    margin-bottom: 3rem;
+}
+
+.nearby-title {
+    font-size: var(--fs-l);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.nearby-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 1rem;
+}
+
+.nearby-img {
+    width: 200px;
+    border-radius: var(--br-soft);
+     
+}
+
+ul {
+    background-color: var(--phthalo-green);
+    border-radius: var(--br-soft);
+    list-style-type: none;
+    text-align: left;
+    font-size: var(--fs-s);
+    padding: 2rem 4rem;
+    border: 5px solid var(--maize-crayola);
+}
+
+li {
+    margin-bottom: 1rem
+    /* padding: .25rem; */
+}
+
+/****** YOUR GUIDE SECTION ******/
+
+.guide-section {
+    width: 500px;
+    text-align: left;
+    background-color: var(--cerulean-frost);
+    padding: 2rem;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem; 
+    border-radius: var(--br-soft);
+    border-bottom: 5px solid var(--timberwolf);
+    border-right: 5px solid var(--timberwolf);
+    box-shadow: 10px 10px var(--charleston-green);
+    margin-bottom: 6rem;
+    /* border-top-right-radius: 30%;  */
+    /* border: 5px solid white; */
+}
+
+.guide-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.guide-img {
+    width: 200px;
+    height: 200px;
+    border-radius: var(--br-soft);
+    border: 5px solid var(--maize-crayola);
+}
+
+
+.guide-title {
+    font-size: var(--fs-m);
+    margin-bottom: 1rem;
+}
+
+.guide-text {
+    text-align: left;
+    color: var(--charleston-green);
+    font-size: var(--fs-s);
+    /* padding: .25rem; */
+    margin-bottom: 1rem;
+}
+
+
+
