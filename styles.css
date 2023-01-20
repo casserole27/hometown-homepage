@@ -1,3 +1,12 @@
+
+/* 
+Scrimba M2 Solo Project
+https://scrimba.com
+Author: Cassie Lewis
+https://clewisdev.com
+Date: January 2023 
+*/
+
 /*
 COOLORS color palette link
 https://coolors.co/182226-3c543c-1f3329-6c93b4-e2dad7
@@ -92,7 +101,7 @@ a:hover {
     
  }
 
- @media (max-width: 30rem) {
+ @media (max-width: 40rem) {
     .hero-section {
     padding: 2rem;
     }
@@ -144,14 +153,22 @@ a:hover {
     font-size: var(--fs-s);
 }
 
+.activity-subtitle {
+    text-transform: uppercase;
+}
+
 .activity-text {
     color: var(--cerulean-frost);
 }
 
-@media (max-width: 30rem) {
+@media (max-width: 40rem) {
     .activity-section {
     flex-direction: column;
     align-items: center;
+    }
+
+    .activity-block {
+        padding: 0 2rem;
     }
 
     .activity-title {
