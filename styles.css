@@ -83,12 +83,13 @@ a:hover {
     font-size: var(--fs-title);
     text-transform: uppercase;
     text-shadow: 3px 3px #182226ff;
+    margin-bottom: 1rem;
 }
 
 .hero-subtitle {
     color: var(--timberwolf);
     font-size: var(--fs-s);
-    padding: 1rem;
+    
  }
 
  @media (max-width: 30rem) {
@@ -97,7 +98,7 @@ a:hover {
     }
 
     .hero-title {
-        font-size: var(--fs-l);
+        font-size: var(--fs-m);
     }
 
     .hero-subtitle {
