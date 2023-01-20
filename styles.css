@@ -44,6 +44,19 @@ body {
     text-align: center;
 }
 
+a {
+    color: var(--timberwolf);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--timberwolf);
+}
+
+a:hover {
+    color: var(--maize-crayola);
+}
+
 /******* HERO SECTION *******/
 
 .hero-section {
@@ -114,7 +127,7 @@ body {
 .activity-title {
     font-size: var(--fs-l);
     text-transform: uppercase;
-    margin: 0 2rem 2rem 2rem;
+    margin: 0 1rem 1rem 1rem;
 }
 
 .activity-img {
@@ -134,10 +147,6 @@ body {
     color: var(--cerulean-frost);
 }
 
-.activity-text:hover {
-    color: var(--maize-crayola);
-}
-
 @media (max-width: 30rem) {
     .activity-section {
     flex-direction: column;
@@ -145,7 +154,7 @@ body {
     }
 
     .activity-title {
-        font-size: var(--fs-m);
+        font-size: var(--fs-s);
     }
 
  }   
@@ -160,7 +169,7 @@ body {
 }
 
 .nearby-title {
-    color: var(--timberwolf);    
+    color: var(--cerulean-frost);    
     font-size: var(--fs-l);
     font-weight: bold;    
     text-transform: uppercase;
@@ -171,7 +180,7 @@ body {
 } 
 
 ul {
-    color: var(--cerulean-frost);
+    /* color: var(--cerulean-frost); */
     background-color: var(--phthalo-green);
     list-style-type: none;
     text-align: center;
@@ -184,10 +193,6 @@ ul {
 
 li {
   margin-bottom: 1rem;
-}
-
-li:hover {
-    color: var(--maize-crayola);
 }
 
 @media (max-width: 40rem) {
@@ -268,7 +273,4 @@ footer {
     align-items: center;
     }
     
-    
-    
-    
- }
+}
