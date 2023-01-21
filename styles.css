@@ -72,7 +72,7 @@ a:hover {
     background: no-repeat center/cover url(images/athensfall.jpg);
     padding: 4rem;
     margin-bottom: 3rem; 
-    border-bottom-right-radius: 40%;
+    border-radius: 1rem 1rem 40% 1rem;
     box-shadow: 0 15px 10px var(--phthalo-green);
        
 }
@@ -82,9 +82,7 @@ a:hover {
     margin: 0 auto;
     background-color: rgba(31, 51, 41, .8);
     padding: 2rem;
-    border-radius: var(--br-soft);
-    border-top-left-radius: 40%;
-    border-bottom-right-radius: 40%;
+    border-radius: 40% 1rem;
 }
 
 .hero-title {
@@ -198,15 +196,13 @@ a:hover {
 } 
 
 ul {
-    /* color: var(--cerulean-frost); */
     background-color: var(--phthalo-green);
     list-style-type: none;
     text-align: center;
     font-size: var(--fs-s);
     padding: 2rem;
     margin-bottom: 2rem;
-    border-radius: var(--br-soft);
-    border-top-left-radius: 20%; 
+    border-radius: 20% 1rem 1rem 1rem;
 }
 
 li {
@@ -242,8 +238,7 @@ li {
     background-color: var(--cerulean-frost);
     padding: 2rem;
     margin: 0 auto;
-    border-radius: var(--br-soft); 
-    border-bottom-right-radius: 30%;
+    border-radius: 1rem 1rem 30% 1rem; 
     border-bottom: 5px solid var(--timberwolf);
     border-right: 5px solid var(--timberwolf);
 }
