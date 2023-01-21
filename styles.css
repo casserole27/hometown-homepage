@@ -35,7 +35,7 @@ https://coolors.co/182226-3c543c-1f3329-6c93b4-e2dad7
     --fs-s: 1.25rem;
     --fs-m: 1.5rem;
     --fs-l: 2.25rem;
-    --fs-title: 2.5rem;
+    --fs-title: 3rem;
 }
 
 /****** MARGIN AND PADDING RESET ******/
@@ -107,7 +107,7 @@ a:hover {
     }
 
     .hero-title {
-        font-size: var(--fs-m);
+        font-size: var(--fs-l);
     }
 
     .hero-subtitle {
@@ -130,7 +130,7 @@ a:hover {
 
 
 .activity-block {
-    width: 18rem;
+    width: 20rem;
     margin: 1rem;
 }
 
