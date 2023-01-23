@@ -180,10 +180,10 @@ a:hover {
 /****** ALSO NEARBY SECTION *******/
 
 .nearby-section {
-    width: 50%;
-    background-color: var(--charleston-green);
+    width: 50rem;
     padding: 2rem;
-    margin: 0 auto;
+    background-color: var(--charleston-green);
+    /* border: 7px solid hotpink; */
 }
 
 .nearby-title {
@@ -202,7 +202,7 @@ ul {
     list-style-type: none;
     text-align: center;
     font-size: var(--fs-s);
-    padding: 2rem;
+    padding: 1rem;
     margin-bottom: 2rem;
     border-radius: 20% 1rem 1rem 1rem;
 }
@@ -228,18 +228,14 @@ li {
 /****** YOUR GUIDE SECTION ******/
 
 .guide-section {
-    width: 75%;
+    width: 50rem;
     background-color: var(--charleston-green);
     padding: 2rem;
-    display: flex;
-    align-items: center;
 }
 
 .guide-block {
-    max-width: 600px;
     background-color: var(--darker-slate-blue);
-    padding: 2rem;
-    margin: 0 auto;
+    padding: 1rem;
     border-radius: 1rem 1rem 30% 1rem; 
     border-bottom: 7px solid var(--maize-crayola);
     border-right: 7px solid var(--maize-crayola);
@@ -265,10 +261,11 @@ li {
 }
 
 .guide-text {
+    width: 50%;
     color: var(--charleston-green);
     font-size: var(--fs-s);
     text-align: center;
-    margin-bottom: 1rem;
+    margin: 1rem auto;
 }
 
 @media (max-width: 40rem) {
@@ -283,8 +280,11 @@ li {
 
 footer {
     /*FLEXBOX FOR NEARBY AND GUIDE SECTIONS*/
+    background-color: var(--charleston-green);
+    padding: 2rem;    
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
  @media (max-width: 40rem) {
