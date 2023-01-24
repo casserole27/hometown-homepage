@@ -80,7 +80,7 @@ a:hover {
 }
 
 .hero-block {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     background-color: rgba(31, 51, 41, .8);
     padding: 2rem;
@@ -98,7 +98,7 @@ a:hover {
 .hero-subtitle {
     color: var(--timberwolf);
     font-size: var(--fs-s);
-    
+    margin-bottom: 1rem;
  }
 
  @media (max-width: 40rem) {
@@ -183,7 +183,6 @@ a:hover {
     width: 50rem;
     padding: 2rem;
     background-color: var(--charleston-green);
-    /* border: 7px solid hotpink; */
 }
 
 .nearby-title {
